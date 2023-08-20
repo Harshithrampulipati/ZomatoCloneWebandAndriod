@@ -298,7 +298,7 @@ body{
     
     .parent{
         border: 1px solid white;
-        width: 430px;
+        width: 330px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -312,11 +312,12 @@ body{
     }
     
     .link{
-        margin-right: 55px;
+        margin-left: 9px;
         font-weight: 400;
-        font-size:larger;
+        font-size:large;
         color: rgb(138, 131, 131);
         text-decoration: none;
+        
     }
 
   
@@ -329,6 +330,7 @@ body{
     }
     .bar{
         margin-right: 30px;
+        margin-left: 10px;
         border: 1px solid lightgray;
         padding: 15px 10px 10px 0px;
         border-radius: 10px;
@@ -444,6 +446,7 @@ body{
         display: flex;
         gap: 0;
         overflow-x:auto;
+        
     }
 
     .biryani{
@@ -561,34 +564,45 @@ body{
 }
 
 .sixty{
-
-    gap: 25px;
-    justify-content: space-between;
-    width: 500px;
-    overflow-x: scroll;
+    display: flex;
+    gap: -5px;
+    justify-content: start;
+    width: 310px;
 }
 .fifty{
-    width: 250px;
+    width: 200px;
+
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: auto;
+    margin-left: -5px;
+    
+}
+.fifty1{
+    height: 100px;
+    width: 100px;
     border: 1px solid none;
     border-radius: 12px;
     padding: auto;
     margin-left: 0px;
+    border: 1px solid white;
     
 }
 .kfc1{
-    margin-left: 40px;
+    
 }
 .kfc3{
-    height: 150px;
+    height: 100px;
     border-radius: 12px;
 }
 .kfc{
-    height: 150px;
+    height: 100px;
     border: 1px solid lightgray;
     border-radius: 12px;
 }
 .abs{
     border: 1px solid none;
+    
     margin-left: 10px;
     padding: 0px 0px;
     background-color: white;
