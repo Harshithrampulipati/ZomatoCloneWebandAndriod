@@ -1,0 +1,606 @@
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(min-width: 450px){
+.logo-img{
+    height: 28px;
+    margin-left: 200px;
+}
+
+.parent{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.parent2{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-right: 170px;
+}
+
+.link{
+    font-weight: 400;
+    font-size:larger;
+    color: rgb(138, 131, 131);
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.bar{
+    margin-left: -100px;
+    border: 1px solid lightgray;
+    padding: 15px 200px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    margin-left: -30px;
+}
+.maps{
+    position: absolute;
+    top: 28px;
+    left: 460px;
+    display:inline;
+    color: rgb(219, 101, 101);
+}
+.ben{
+    position: absolute;
+    top: 3px;
+    left: 480px;
+
+}
+.deli{
+    margin-top: 75px;
+    font-weight: 400;
+    color: rgb(45, 43, 43);
+}
+.home{
+    position: absolute;
+    left: 220px;
+    font-weight: 400;
+
+}
+.delivery{
+    display: flex;
+    gap: 10px;
+
+}
+.second{
+    display: flex;
+}
+
+.del-pic{
+    padding: 10px 10px;
+    height: 40px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-color:bisque;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+.second1{
+    
+    border: 1px solid white;
+}
+.parent{
+    position: static;
+}
+.filters{
+    height: 30px;
+    width: 40px;
+    padding: 5px 5px 0px 10px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    color: rgb(142, 140, 140);
+    font-weight: lighter;
+    margin-left: 250px;
+}
+.rate{
+    height: 30px;
+    width: 70px;
+    padding: 5px 15px 0px 10px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    color: rgb(142, 140, 140);
+    font-weight: lighter;
+}
+.cuisine{
+    height: 30px;
+    width: 50px;
+    padding: 5px 15px 0px 10px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    color: rgb(142, 140, 140);
+    font-weight: lighter;
+}
+
+.three{
+    display: flex;
+    gap: 20px;
+    border: 1px solid white;
+    position: sticky;
+    background-color: white;
+    top:0px;
+    z-index: 10;
+
+}
+
+.h1{
+    margin-left: 270px;
+    font-weight: 480;
+}
+.DominosPizza{
+    height: 150px;
+    margin-left: 290px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.McDonalds{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.MeghanaFoods{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.Truffles{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.BurgerKing{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.biryani{
+    height: 150px;
+    margin-left: 290px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.chicken{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.dosa{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.fried{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.pizza{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.images{
+    display: flex;
+    gap: 0;
+}
+.five{
+    display: flex;
+    margin-left: 330px;
+    gap: 130px;
+}
+.seven{
+    display: flex;
+    margin-left: 330px;
+    gap: 90px;
+}
+.eight{
+    display: flex;
+    margin-left: 330px;
+    margin-top: -23px;
+    gap: 145px;
+}
+.texts{
+    font-weight: 450;
+}
+.four{
+ border: 1px solid white;
+ background-color: rgb(248, 245, 245);   
+}
+.six{
+    border: 1px solid white;
+    background-color: white;   
+   }
+.dfg{
+        margin-left: 270px;
+        font-weight: 580;
+    
+}
+.fifty{
+    width: 350px;
+    position: relative;
+    border: 1px solid none;
+    border-radius: 12px;
+    padding: auto;
+}
+.kfc{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.abs{
+    border: 1px solid none;
+    padding: 0px 10px;
+    background-color: rgb(107, 107, 255);
+    position: absolute;
+    bottom: 100px;
+}
+.abs1{
+    border: 1px solid none;
+    padding: 0px 10px;
+    background-color: rgb(107, 107, 255);
+    position: absolute;
+    bottom: 120px;
+}
+.sixty{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.abs3{
+    border: 1px solid none;
+    padding: 0px 10px;
+    background-color: rgb(244, 242, 242);
+    position: absolute;
+    bottom: 100px;
+    border-radius: 12px;
+    right: 0;
+}
+.abs4{
+    border: 1px solid none;
+    padding: 0px 10px;
+    background-color: rgb(244, 242, 242);
+    position: absolute;
+    bottom: 120px;
+    border-radius: 12px;
+    right: 0;
+}
+
+
+    .texts2{
+        display: none;
+    }
+    .biryani2{
+        display: none;
+    }
+}
+@media(max-width: 420px){
+   
+    .logo-img{
+        height: 20px;
+        margin-left: 0px;
+    }
+    
+    .parent{
+        border: 1px solid red;
+        width: 430px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .parent2{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        margin-right: 40px;
+    }
+    
+    .link{
+        margin-right: 55px;
+        font-weight: 400;
+        font-size:larger;
+        color: rgb(138, 131, 131);
+        text-decoration: none;
+    }
+
+    .link2{
+        margin-right: 80px;
+        font-weight: 400;
+        font-size:larger;
+        color: rgb(138, 131, 131);
+        text-decoration: none;
+    }
+    #link2{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+    .bar{
+    
+        margin-left: 2px;
+        border: 1px solid lightgray;
+        padding: 15px 0px 15px 0px;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .search{
+        margin-top: 5px;
+        margin-left: -33px;
+        border:1px solid white;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 7px 5px 10px;
+    }
+    .maps{
+        
+        display: none;
+    }
+    .ben{
+        
+        display: none;
+    
+    }
+
+    .link2{
+        display: none;
+    }
+    
+    .deli{
+        margin-top: 75px;
+        font-weight: 400;
+        color: rgb(45, 43, 43);
+        font-size: small;
+    }
+    .home{
+        position: absolute;
+        left: 15px;
+        font-weight: 400;
+    
+    }
+    .delivery{
+        display: flex;
+        gap: 15px;
+    
+    }
+    .second{
+        display: flex;
+    }
+    
+    .del-pic{
+        padding: 10px 10px;
+        height: 20px;
+        border: 1px solid wheat;
+        border-radius: 50%;
+        background-color:bisque;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    .second1{
+        
+        border: 1px solid white;
+    }
+    .parent{
+        position: static;
+    }
+    
+    .filters{
+        height: 30px;
+        width: 40px;
+        padding: 5px 5px 0px 10px;
+        border-radius: 12px;
+        border: 1px solid lightgray;
+        color: rgb(142, 140, 140);
+        font-weight: lighter;
+        margin-left: 20px;
+    }
+    .rate{
+        height: 30px;
+        width: 70px;
+        padding: 5px 15px 0px 10px;
+        border-radius: 12px;
+        border: 1px solid lightgray;
+        color: rgb(142, 140, 140);
+        font-weight: lighter;
+    }
+    .cuisine{
+        height: 30px;
+        width: 50px;
+        padding: 5px 15px 0px 10px;
+        border-radius: 12px;
+        border: 1px solid lightgray;
+        color: rgb(142, 140, 140);
+        font-weight: lighter;
+    }
+    .three{
+        display: flex;
+        gap: 10px;
+        border: 1px solid white;
+        position: sticky;
+        background-color: white;
+        top:0px;
+        z-index: 10;
+    
+    }
+    
+    .h1{
+        margin-left: 25px;
+        font-weight: 480;
+        font-size: larger;
+    }
+
+    .images{
+        display: flex;
+        gap: 0;
+        overflow-x:auto;
+    }
+
+    .biryani{
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 20px;
+        clip-path: circle();
+    }
+    .biryani2{
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    .chicken{
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 20px;
+        clip-path: circle();
+    }
+    .dosa{
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 20px;
+        clip-path: circle();
+    }
+    .fried{
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 20px;
+        clip-path: circle();
+    }
+    .pizza{
+        height: 150px;
+        margin-left: 35px;
+        margin-top: 20px;
+        clip-path: circle();
+    }
+    .texts{
+        display: none;
+    }
+    
+    .seven{
+        display: flex;
+        margin-left: 0px;
+        gap: 0px;
+    }
+
+
+.DominosPizza{
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.McDonalds{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.MeghanaFoods{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.Truffles{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.BurgerKing{
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+    clip-path: circle();
+}
+.texts2{
+    margin-top: 60px;
+}
+
+.dfg{
+    margin-left: 0px;
+    font-weight:lighter;
+    font-size:xx-large;
+    margin-top: 30px;
+    margin-left: 10px;
+    font: 1em sans-serif;
+}
+
+.sixty{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.abs3{
+    border: 1px solid none;
+    padding: 0px 10px;
+    background-color: rgb(244, 242, 242);
+    position: absolute;
+    bottom: 100px;
+    border-radius: 12px;
+    right: 0;
+}
+
+
+.abs3{
+    border: 1px solid none;
+    padding: 0px px;
+    background-color: rgb(244, 242, 242);
+    position: absolute;
+    bottom: 100px;
+    border-radius: 12px;
+    right: 0;
+}
+
+.sixty{
+
+    gap: 25px;
+    justify-content: space-between;
+    width: 500px;
+    overflow-x: scroll;
+    overflow-x: visible;
+}
+.fifty{
+    width: 250px;
+    border: 1px solid none;
+    border-radius: 12px;
+    padding: auto;
+    margin-left: 0px;
+    
+}
+.kfc1{
+    margin-left: 40px;
+}
+.kfc3{
+    height: 150px;
+    border-radius: 12px;
+}
+.kfc{
+    height: 150px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.abs{
+    border: 1px solid none;
+    margin-left: 10px;
+    padding: 0px 0px;
+    background-color: white;
+    bottom: 100px;
+}
+
+}
