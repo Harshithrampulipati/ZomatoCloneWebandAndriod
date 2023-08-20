@@ -297,7 +297,7 @@ body{
     }
     
     .parent{
-        border: 1px solid red;
+        border: 1px solid white;
         width: 430px;
         display: flex;
         justify-content: space-between;
@@ -312,20 +312,14 @@ body{
     }
     
     .link{
-        margin-right: 55px;
+        margin-right: 10px;
         font-weight: 400;
         font-size:larger;
         color: rgb(138, 131, 131);
         text-decoration: none;
     }
 
-    .link2{
-        margin-right: 80px;
-        font-weight: 400;
-        font-size:larger;
-        color: rgb(138, 131, 131);
-        text-decoration: none;
-    }
+  
     #link2{
         display: none;
     }
@@ -335,7 +329,7 @@ body{
     }
     .bar{
     
-        margin-left: 2px;
+        margin-left: 5px;
         border: 1px solid lightgray;
         padding: 15px 0px 15px 0px;
         border-radius: 10px;
@@ -573,7 +567,6 @@ body{
     justify-content: space-between;
     width: 500px;
     overflow-x: scroll;
-    overflow-x: visible;
 }
 .fifty{
     width: 250px;
